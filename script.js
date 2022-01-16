@@ -18,9 +18,10 @@ function calcular(){
     console.log(qdtTotalcerveja)
     let qdtTotalbebidas = bebidaspp(duracao) * adultos +(bebidaspp(duracao) / 2 * criancas);
     console.log(qdtTotalbebidas)
-    
 
-
+    document.getElementById('carnepp').innerHTML = qdtTotalcarne;
+    document.getElementById('cervejapp').innerHTML = qdtTotalcerveja;
+    document.getElementById('bebidaspp').innerHTML = qdtTotalbebidas;
 }
 
 function carnepp (duracao){
